@@ -19,7 +19,7 @@ a {
   background: #fff;
 }
 
-.feedback-form > label {
+label {
   width: 360px;
   min-height: 72px;
   font-weight: 400;
@@ -30,7 +30,7 @@ a {
   color: #2e2f42;
 }
 
-.feedback-form > label > input {
+input {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 360px;
@@ -46,15 +46,15 @@ a {
   margin-top: 8px;
 }
 
-.feedback-form > label > input:hover {
+input:hover {
   outline: auto;
 }
 
-.feedback-form > label > input:focus {
+input:focus {
   outline: transparent;
 }
 
-.feedback-form > label + label {
+label {
   width: 360px;
   min-height: 112px;
   font-weight: 400;
